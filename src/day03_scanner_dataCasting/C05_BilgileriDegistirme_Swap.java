@@ -18,8 +18,18 @@ public class C05_BilgileriDegistirme_Swap {
 
         int sayi2 = scanner.nextInt();
 
-        sayi1 = sayi2;
-        sayi2 = sayi1 ;
+
+       int bosKova = 0 ;
+
+
+       bosKova = sayi2;
+
+
+       sayi2 = sayi1 ;
+
+
+
+       sayi1 = bosKova;
 
 
         System.out.println("Sayi1'in yeni degeri : " + sayi1);
