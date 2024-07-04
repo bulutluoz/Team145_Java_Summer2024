@@ -61,5 +61,6 @@ public class C01_ExplicitNarrowing {
         System.out.println(sayi / 10); // 20
 
 
+
     }
 }
