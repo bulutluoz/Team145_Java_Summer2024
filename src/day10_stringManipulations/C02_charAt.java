@@ -26,5 +26,8 @@ public class C02_charAt {
 
         // System.out.println(str.charAt(13)); // StringIndexOutOfBoundsException
         // System.out.println(str.charAt(20)); // StringIndexOutOfBoundsException
+
+
+
     }
 }
