@@ -22,6 +22,17 @@ public class C04_EmailKontrol {
         System.out.println("Lutfen email adresinizi giriniz");
         String email = scanner.nextLine();
 
+        if ( !email.contains("@") ){
+            System.out.println("gecersiz mail");
+        }
+
+        if ( !email.contains("@gmail.com") ){
+            System.out.println("mail gmail olmali");
+        }
+
+        if (  !email.endsWith("@gmail.com") ){
+            System.out.println("mailde yazim hatasi var");
+        }
 
     }
 }
