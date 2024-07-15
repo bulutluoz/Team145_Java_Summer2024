@@ -21,7 +21,16 @@ public class C09_LastIndexOf {
         System.out.println("Lutfen cumlede aranacak metni girin...");
         String metin = scanner.nextLine();
 
+        int ilkIndex = cumle.indexOf(metin);
+        int sonIndex = cumle.lastIndexOf(metin);
 
+        if ( !cumle.contains(metin) ) {
+            System.out.println("cumle aranan metni icermiyor");
+        } else if ( ilkIndex == sonIndex   ) {
+            System.out.println("cumle aranan metni sadece 1 adet iceriyor");
+        }else {
+            System.out.println("cumle aranan metni 1'den fazla iceriyor");
+        }
 
     }
 }
