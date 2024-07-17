@@ -16,13 +16,14 @@ public class C08_RakamlarToplami2 {
         int basamakSayisi = (girilenSayi+"").length(); // "1453".length() ==> 4
         int birlerBasamagi = 0;
         int rakamlarToplami = 0;
+        int dummyNumber = girilenSayi;
 
 
         for (int i = 1; i <=basamakSayisi ; i++) {
 
-            birlerBasamagi = girilenSayi % 10 ;
+            birlerBasamagi = dummyNumber % 10 ;
             rakamlarToplami += birlerBasamagi;
-            girilenSayi /= 10;
+            dummyNumber /= 10;
 
         }
 
