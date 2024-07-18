@@ -21,5 +21,16 @@ public class C08_NestedForLoop {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen satir sayisini giriniz...");
         int satir = scanner.nextInt();
+
+        for (int i = 1; i <=satir ; i++) { // outer loop ==> satirlari kontrol eder
+
+            for (int j = 1; j <=i ; j++) { // inner loop ==> her satirdaki sutunlari
+
+                System.out.print( j-1 + " " );
+
+            }
+            System.out.println("");
+        }
+
     }
 }
