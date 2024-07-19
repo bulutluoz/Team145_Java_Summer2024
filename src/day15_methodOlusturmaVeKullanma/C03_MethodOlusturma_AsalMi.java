@@ -9,7 +9,23 @@ public class C03_MethodOlusturma_AsalMi {
         asalMi(82); // false
         asalMi(97); // true
 
+        /*
+            method deklarasyonunda () icindeki variable'lara PARAMETRE
+            method call'da () icindeki degerlere ARGUMENT denilir
 
+            eger parametre ve argument uyumlu olmazsa
+            Java compiler error verir ve kod calistirilamaz
+
+            uyumlu olmak icin parametre ve argumentlerin
+            hem kac tane oldugu, hem de data turleri onemlidir
+         */
+
+        // asalMi(20.4);
+        // asalMi(true);
+        // asalMi("naber?");
+
+        // asalMi(50,44);
+        // 'asalMi(int)' in 'C03' cannot be applied to '(int, int)'
 
 
     }
