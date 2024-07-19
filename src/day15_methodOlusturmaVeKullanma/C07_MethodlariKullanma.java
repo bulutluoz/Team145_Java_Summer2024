@@ -13,7 +13,13 @@ public class C07_MethodlariKullanma {
         // 20719 asal ise true, asal degilse false yazdirin
         C03_MethodOlusturma_AsalMi.asalMi(20719); // true
 
-        // kullanicidan 2 sayi alin ve buyuk olmayani yazdirin
+        System.out.println(C05_IsimDuzenle.ismiDuzenle("CEM", "BAKIR")); // Cem Bakir
+
+        // MEHMET AVCI ismini duzenleyip, olusturdugunuz yeniOrenci String'ine atayin
+
+        String yeniOgrenci = C05_IsimDuzenle.ismiDuzenle("MEHMET","AVCI");
+
+
 
 
     }
