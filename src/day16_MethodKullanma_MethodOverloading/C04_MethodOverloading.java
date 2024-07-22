@@ -12,11 +12,11 @@ public class C04_MethodOverloading {
     }
 
 
-    public void topla(int a, int b){
+    public static void topla(int a, int b){
         System.out.println(a+b);
     }
 
-    public void carpim(int a, int b){
+    public static void carpim(int a, int b){
         System.out.println(a*b);
     }
 }
