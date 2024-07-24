@@ -13,6 +13,12 @@ public class C07_Karsilastirma {
 
                EGER sarti saglamiyorsa HIC CALISMASIN derseniz dezavantaj olur
 
+
+
+           1- eger baslangic ve bitis belliyse for loop
+           2- eger kac kere tekrar edecegimizi bilmiyorsak while veya do-while kullanilir
+           3- eger body'nin en azindan bir kere MUTLAKA calismasini istiyorsak do-while
+
          */
 
 
