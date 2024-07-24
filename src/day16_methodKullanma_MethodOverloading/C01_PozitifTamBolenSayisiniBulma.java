@@ -1,4 +1,4 @@
-package day16_MethodKullanma_MethodOverloading;
+package day16_methodKullanma_MethodOverloading;
 
 public class C01_PozitifTamBolenSayisiniBulma {
 

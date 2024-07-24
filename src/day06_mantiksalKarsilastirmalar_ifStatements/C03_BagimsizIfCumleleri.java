@@ -1,4 +1,4 @@
-package day06_MantiksalKarsilastirmalar_ifStatements;
+package day06_mantiksalKarsilastirmalar_ifStatements;
 
 import java.util.Scanner;
 

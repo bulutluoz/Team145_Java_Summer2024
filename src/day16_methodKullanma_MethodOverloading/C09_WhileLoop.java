@@ -1,4 +1,4 @@
-package day16_MethodKullanma_MethodOverloading;
+package day16_methodKullanma_MethodOverloading;
 
 import java.util.Scanner;
 
