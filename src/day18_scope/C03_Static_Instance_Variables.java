@@ -2,13 +2,13 @@ package day18_scope;
 
 public class C03_Static_Instance_Variables {
 
-    static String hIsmi = "Yildiz Hastanesi";
-    static String hTelefonu = "0312 2343434";
-    static String hAdresi = "Cankaya";
+    public static String hIsmi = "Yildiz Hastanesi";
+    public static String hTelefonu = "0312 2343434";
+    public static String hAdresi = "Cankaya";
 
-    String pIsmi = "Isim atanmadi";
-    String pAdresi = "Adres atanmadi";
-    String pTelefonu = "Telefon atanmadi";
+    public String pIsmi = "Isim atanmadi";
+    public String pAdresi = "Adres atanmadi";
+    public String pTelefonu = "Telefon atanmadi";
 
     public static void main(String[] args) {
 
