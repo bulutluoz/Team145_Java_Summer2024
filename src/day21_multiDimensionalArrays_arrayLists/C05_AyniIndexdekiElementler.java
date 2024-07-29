@@ -16,6 +16,7 @@ public class C05_AyniIndexdekiElementler {
 
         int ortakIndexSayisi = arr[0].length < arr[1].length ? arr[0].length : arr[1].length ;
 
+
         int[] ortakIndexArr = new int[ortakIndexSayisi]; // [0, 0, 0]
 
 
