@@ -18,9 +18,31 @@ public class C09_MetniSifrele {
         System.out.println("sifrelenecek metni giriniz");
         String metin = scanner.nextLine().toLowerCase();
 
-        String[] karakterler = metin.split("");
+        String[] karakterler = metin.split(""); // [b, u,  , s, o, r, u,  , b, u,  , k, a, d, a, r, .]
 
         System.out.println(Arrays.toString(karakterler));
 
+        // System.out.println((char) ('a'+ 3) ); // d
+        // System.out.println( (char) ('w' + 3)); // z
+        // System.out.println( (char) ('y' + 3-26)); // |
+        // System.out.println( (char) ('z' + 3-26)); // |
+
+        for (int i = 0; i < karakterler.length ; i++) {
+            
+            if (metin.charAt(i) >= 'a' && metin.charAt(i)<='w'){ // a <==>w
+                
+                karakterler[i] = (char)(metin.charAt(i)+3)+"";
+                
+            } else if (metin.charAt(i) >= 'x' && metin.charAt(i)<='z') { // x <==> z
+                karakterler[i] = (char)(metin.charAt(i)+3-26)+"";
+            } // kucuk harf olmayan karakterler aynen kalacak
+
+        }
+
+        System.out.println(Arrays.toString(karakterler));
+
+        String yeniMetin = String.join("",karakterler);
+
+        System.out.println("Metnin yeni hali : " + yeniMetin);
     }
 }
