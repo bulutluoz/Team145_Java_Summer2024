@@ -14,4 +14,6 @@ public class C05_Odev {
     // tahmin sayisi 2 ile <=5 arasinda ise supersin
     // 5 ile <=10 ise idare eder
     // 10'dan buyukse daha zekice tahminler yapmalisin yazdirin
+
+
 }
