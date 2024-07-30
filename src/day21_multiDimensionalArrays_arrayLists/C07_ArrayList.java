@@ -20,7 +20,5 @@ public class C07_ArrayList {
 
         System.out.println(isimler); // [Murat, Cem]
 
-
-
     }
 }
