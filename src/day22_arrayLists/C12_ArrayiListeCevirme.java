@@ -51,5 +51,23 @@ public class C12_ArrayiListeCevirme {
         // bu cevirme islemini daha saglikli yapmak icin
         // bos bir list olusturup,
         // loop ile array'deki tum elementleri listeye kopyalayabiliriz
+
+        int[] arr3 = {3,6,7,8,4,3,3,1,2,5,7,8,9,0,9,4,5,6,7};
+
+        List<Integer> arrdenList = new ArrayList<>();
+
+        for (int i = 0; i < arr3.length ; i++) {
+
+            arrdenList.add(arr3[i]);
+        }
+
+        System.out.println(arrdenList);
+
+        arrdenList.add(10);
+
+        arrdenList.remove(0);
+
+        System.out.println(arrdenList);
+
     }
 }
