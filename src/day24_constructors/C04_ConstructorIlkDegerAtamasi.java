@@ -26,5 +26,10 @@ public class C04_ConstructorIlkDegerAtamasi {
         System.out.println(obj2.adres); // Izmir
         System.out.println(obj1.adres); // Istanbul
 
+        System.out.println(obj1.isim); // Ali
+        System.out.println(obj2.isim); // Ali
+        System.out.println(obj3.isim); // Ali
+
+
     }
 }
