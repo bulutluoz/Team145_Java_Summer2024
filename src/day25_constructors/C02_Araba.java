@@ -2,15 +2,6 @@ package day25_constructors;
 
 public class C02_Araba {
 
-    public String toString() {
-        return "Ozellikler : " +
-                "Marka='" + marka + '\'' +
-                ", Model='" + model + '\'' +
-                ", Renk='" + renk + '\'' +
-                ", Yil=" + yil +
-                ", Fiyat=" + fiyat ;
-    }
-
     String marka = "Marka atanmadi";
     String model = "Model atanmadi";
     String renk = "Renk atanmadi";
@@ -30,6 +21,21 @@ public class C02_Araba {
     // default constructor yerine parametresiz bir constructor olustururuz
     C02_Araba(){
 
+    }
+
+    C02_Araba(String mr , String md , int fy){
+        marka = mr;
+        model = md;
+        fiyat = fy;
+    }
+
+    public String toString() {
+        return "Ozellikler : " +
+                "Marka='" + marka + '\'' +
+                ", Model='" + model + '\'' +
+                ", Renk='" + renk + '\'' +
+                ", Yil=" + yil +
+                ", Fiyat=" + fiyat ;
     }
 
 
