@@ -19,7 +19,9 @@ public class C02_PassByValue {
 
         System.out.println("method call'dan sonra fiyat : " + fiyat ); // 200
 
+        fiyat = getIndirimliFiyat(fiyat);
 
+        System.out.println("main method'da deger atadiktan sonra fiyat : " + fiyat ); // 180
     }
 
 
