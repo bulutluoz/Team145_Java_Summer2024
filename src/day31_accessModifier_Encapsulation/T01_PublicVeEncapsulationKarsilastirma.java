@@ -7,9 +7,7 @@ public class T01_PublicVeEncapsulationKarsilastirma {
     // AYNI SEYLER midir ?
 
 
-
-    public static int sayiPublic = 20;
-
+    public int sayiPublic = 20;
 
 
     private int sayiPrivate = 70;
