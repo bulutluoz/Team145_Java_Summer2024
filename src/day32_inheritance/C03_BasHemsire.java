@@ -8,12 +8,16 @@ public class C03_BasHemsire extends C01_Personel{
 
         2- Child class ISTERSE bazi ozellikleri
            kendisine uyarlayabilir
+           maas() ve statu gibi
 
         3- Child class ISTERSE parent class'da olmayan
            bazi ozellikleri ekleyebilir
+           nobet gibi...
 
      */
 
+    String statu = "Bashemsire";
+    String nobet = "haftada 1 gun";
 
 
     public static void main(String[] args) {
@@ -26,10 +30,16 @@ public class C03_BasHemsire extends C01_Personel{
         basHemsire1.dogumTarihi = "1.1.1971";
         basHemsire1.telefon = "05343453637";
 
+
         System.out.println(basHemsire1);
 
         basHemsire1.maas();
 
+
+    }
+
+    public void maas(){
+        System.out.println("Bashemsireler icin minumum maas 21000 tl'dir");
 
     }
 
@@ -40,6 +50,8 @@ public class C03_BasHemsire extends C01_Personel{
                 ", adres='" + adres + '\'' +
                 ", dogumTarihi='" + dogumTarihi + '\'' +
                 ", telefon='" + telefon + '\'' +
+                ", statu='" + statu + '\'' +
+                ", nobet='" + nobet + '\'' +
                 '}';
     }
 }
