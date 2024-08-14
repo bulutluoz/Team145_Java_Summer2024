@@ -2,7 +2,10 @@ package day33_ConstructorCall;
 
 public class C06_P extends C05_GP {
 
+
+
     C06_P(){
+        // super();
         System.out.println("P parametresiz constructor calisti");
     }
 

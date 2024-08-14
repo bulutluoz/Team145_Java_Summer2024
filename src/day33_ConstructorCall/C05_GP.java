@@ -1,6 +1,11 @@
 package day33_ConstructorCall;
 
+
+
 public class C05_GP {
+
+
+
     C05_GP(){
         System.out.println("GP parametresiz constructor calisti");
     }
