@@ -8,16 +8,16 @@ public class C03_Corolla  extends C02_Toyota{
 
     // parent class'lardaki bilgilerden guncellemek istediklerimiz
 
-    String model = "Corolla";
-    String sanzuman = "Multidrive";
-    String lastik = "Turkiyede uretilen pirelli lastik";
+    public String model = "Corolla";
+    public String sanzuman = "Multidrive";
+    public String lastik = "Turkiyede uretilen pirelli lastik";
 
 
     // parent class'larda olmayan
     // Corolla class'ina ozel eklemek istedigimiz ozellikler
 
-    String uretimYeri = "Turkiye";
-    String fren = "Abs";
-    String aku = "Inci";
+    public String uretimYeri = "Turkiye";
+    public String fren = "Abs";
+    public String aku = "Inci";
 
 }
