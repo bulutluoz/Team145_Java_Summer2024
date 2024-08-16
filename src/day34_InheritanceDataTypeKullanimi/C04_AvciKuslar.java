@@ -8,16 +8,49 @@ public class C04_AvciKuslar extends C03_Kuslar{
 
     public static void main(String[] args) {
 
+        /*
+                ozellikler variable olarak olusturuldugunda
+                DOMINANT olan Data Turu secilen class'dir
+
+                Java aramaya data turu secilen class'dan baslar
+                ve ilk buldugu degeri kullanir
+
+         */
+
+        // Hayvanlar class'indaki bir hayvan olsturalim
+        C02_Hayvanlar hayvan1  = new C02_Hayvanlar();
+        System.out.println(hayvan1.omur); // H yasar ve olur
+        System.out.println(hayvan1.solunum); //  H nefes alirlar
+        System.out.println(hayvan1.cogalma); // H cogalirlar
+        //System.out.println(hayvan1.kanat); // H class'inda yok CTE
+        System.out.println(hayvan1.hareket); // H hareket ederler
+        System.out.println(hayvan1.beslenme); // H beslenirler
+        //System.out.println(hayvan1.gaga); // H class'inda yok CTE
+        //System.out.println(hayvan1.pence); // H class'inda yok CTE
+
+
+        // Hayvanlar class'indaki bir kus olusturalim
+        C02_Hayvanlar kusHayvani = new C03_Kuslar();
+        System.out.println(kusHayvani.omur); // H yasar ve olur
+        System.out.println(kusHayvani.solunum); //  H nefes alirlar
+        System.out.println(kusHayvani.cogalma); // H cogalirlar
+        //System.out.println(kusHayvani.kanat); // H class'inda yok CTE
+        System.out.println(kusHayvani.hareket); // H hareket ederler
+        System.out.println(kusHayvani.beslenme); // H beslenirler
+        //System.out.println(kusHayvani.gaga); // H class'inda yok CTE
+        //System.out.println(kusHayvani.pence); // H class'inda yok CTE
+
+
         //Hayvanlar class'indaki kartal demek icin
         C02_Hayvanlar kartalHayvani = new C04_AvciKuslar();
         System.out.println(kartalHayvani.omur); // H yasar ve olur
-        System.out.println(kartalHayvani.solunum); //  K akcigerle nefes alir
-        System.out.println(kartalHayvani.cogalma); // K yumurtayla cogalir
-        System.out.println(kartalHayvani.kanat); // K kanatlidir
-        System.out.println(kartalHayvani.hareket); // A ucarlar
-        System.out.println(kartalHayvani.beslenme); // A et yerler
-        System.out.println(kartalHayvani.gaga); // A sivri gagalidir
-        System.out.println(kartalHayvani.pence); // A pencelidir
+        System.out.println(kartalHayvani.solunum); //  H nefes alirlar
+        System.out.println(kartalHayvani.cogalma); // H cogalirlar
+        // System.out.println(kartalHayvani.kanat); // H class'inda yok CTE
+        System.out.println(kartalHayvani.hareket); // H hareket ederler
+        System.out.println(kartalHayvani.beslenme); // H beslenirler
+        //System.out.println(kartalHayvani.gaga); // H class'inda yok CTE
+        //System.out.println(kartalHayvani.pence); // H class'inda yok CTE
 
 
 
