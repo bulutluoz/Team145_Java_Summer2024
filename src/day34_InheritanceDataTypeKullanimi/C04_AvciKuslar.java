@@ -28,7 +28,6 @@ public class C04_AvciKuslar extends C03_Kuslar{
         //System.out.println(hayvan1.gaga); // H class'inda yok CTE
         //System.out.println(hayvan1.pence); // H class'inda yok CTE
 
-
         // Hayvanlar class'indaki bir kus olusturalim
         C02_Hayvanlar kusHayvani = new C03_Kuslar();
         System.out.println(kusHayvani.omur); // H yasar ve olur
