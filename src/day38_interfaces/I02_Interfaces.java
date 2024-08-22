@@ -1,5 +1,8 @@
 package day38_interfaces;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public interface I02_Interfaces {
     // interface'de olusturulan her variable
     // public static ve final'dir
@@ -33,6 +36,9 @@ public interface I02_Interfaces {
         // Genel bir kabul olarak
         // Java'da public static final varioable'lar
         // kullanicilarin dikkatini cekmek icin tamamen buyuk harflerle isimlendirilir
+
+
+
 
     }
 }
