@@ -13,5 +13,6 @@ public class C02_LinkedList_ListDataType {
         // bugune kadar kullandigimiz arrayList ile ortak ozelliklere sahiptir
 
 
+
     }
 }
