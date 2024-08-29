@@ -97,7 +97,28 @@ public class MapMethodDepo {
 
     }
 
+    public static void isimdenOgrenciArama(Map<Integer,String> ogrenciMap , String arananIsim){
 
+        // verilen isme sahip ogrencilerin
+        // Numara, sinif, sube, isim ve soyisimlerini yazdiran
+        // bir method olusturun
+
+
+        // key'leri bir Set olarak kaydedelim
+
+
+        // Herbir key'i ele alip
+        // o key'e ait value'yu kaydedelim
+
+
+        // value'yu split edip isim degerini arananIsim ile karsilastiralim
+
+
+        // isim aranan isme esit ise numara, sinif, sube, isim ve soyismini yazdiralim
+
+
+
+    }
 
 
 
