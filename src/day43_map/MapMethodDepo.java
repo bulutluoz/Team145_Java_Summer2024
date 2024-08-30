@@ -121,5 +121,23 @@ public class MapMethodDepo {
     }
 
 
+    public static Map<Integer, String> soyismiGuncelle(Map<Integer, String> ogrenciMap, int ogrenciNo, String yeniSoyisim) {
 
+        // istenen numaranin value'sunu kaydedelim
+        String value = ogrenciMap.get(ogrenciNo);
+
+        // value'u split ile array'e cevirip kaydedelim
+        String[] valueArr = value.split("-");
+
+        // array'de soyismi update edelim
+        valueArr[1] = yeniSoyisim;
+
+        // array'in yeni halini birlestirip yeniValue'yu olusturalim
+        String yeniValue = String.join("-",valueArr);
+
+        // ogrenciNo ve yeniValue ile map'i update edelim
+        ogrenciMap.put(ogrenciNo,yeniValue);
+
+        return ogrenciMap;
+    }
 }
