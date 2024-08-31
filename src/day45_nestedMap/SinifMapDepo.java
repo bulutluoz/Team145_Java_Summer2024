@@ -2,6 +2,7 @@ package day45_nestedMap;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class SinifMapDepo {
 
@@ -44,6 +45,33 @@ public class SinifMapDepo {
 
         sinifMap.put(oNo,ogrenciMap);
 
+    }
+
+    public static void topluSinifArtir(){
+        Set<Integer> sinifKeySeti =  sinifMap.keySet();
+
+        for (Integer eachKey : sinifKeySeti){
+
+            String ogrenciSinifi = sinifMap.get(eachKey).get("sinif").toLowerCase();
+
+
+            switch (ogrenciSinifi){
+
+                case "9" :
+                    sinifMap.get(eachKey).put("sinif","10");
+                    break;
+                case "10" :
+                    sinifMap.get(eachKey).put("sinif","11");
+                    break;
+                case "11" :
+                    sinifMap.get(eachKey).put("sinif","12");
+                    break;
+                case "12" :
+                    sinifMap.get(eachKey).put("sinif","mezun");
+
+            }
+
+        }
     }
 
 
